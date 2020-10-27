@@ -11,6 +11,8 @@ struct player *new_player(char *n, int h, int hu) {
 	strncpy(user->name, n, sizeof(user->name)-1);
 	user->hearts = h;
 	user->hunger = hu;
+
+	return user;
 }
 
 void display_player(struct player *p) {
