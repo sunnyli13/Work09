@@ -20,8 +20,8 @@ int main() {
 	take_damage(One, hearts);
 	use_energy(One, hunger);
 	display_player(One);
-	free(One);
-	
+	erase_player(One);
+
 	printf("\n");
 
 	hearts = rand() % 10;
@@ -32,7 +32,7 @@ int main() {
 	take_damage(Two, hearts);
 	use_energy(Two, hunger);
 	display_player(Two);
-	free(Two);
+	erase_player(Two);
 
 	return 0;
 }
