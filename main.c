@@ -22,7 +22,7 @@ int main() {
 	display_player(One);
 	erase_player(One);
 
-	printf("\n");
+	printf("\n------------------------\n\n");
 
 	hearts = rand() % 10;
 	hunger = rand() % 10;
